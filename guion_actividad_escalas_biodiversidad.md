@@ -38,7 +38,7 @@ La diversidad biológica se distribuye por la Tierra según una serie de patrone
 + Heterogeneidad ambiental. Se ha comprobado que los lugares más heterogéneos desde un punto de vista ambiental (más cambios en las condiciones climáticas, por ejemplo), albergan más diversidad.
 + Dureza ambiental. En multitud de ocasiones se ha comprobado que los lugares sometidos a más perturbaciones o más fuentes de estrés, tienen menos diversidad biológica.
 
-[Este](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023_2024/biblio/biodiversity_patterns.pdf) artículo describe con detalle estos patrones y algunos más. El foco de esta actividad es que, si bien los factores anteriores explican la distribución de la diversidad, lo hacen de forma distinta dependiendo de la escala espacial a la que "observamos". 
+[Este](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/biblio/biodiversity_patterns.pdf) artículo describe con detalle estos patrones y algunos más. El foco de esta actividad es que, si bien los factores anteriores explican la distribución de la diversidad, lo hacen de forma distinta dependiendo de la escala espacial a la que "observamos". 
 
 
 
@@ -54,26 +54,26 @@ En las siguientes secciones se describe cómo procederemos. En primer lugar cont
 
 En primer lugar descargué de GBIF todos los datos de presencia de especies de Andalucía.  Esto supone trabajar con una base de datos de 11.448.644 registros. Abajo puedes ver la densidad de puntos de presencia de especies según GBIF en nuestra región.
 
-<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023_2024/imagenes/occurrences_gbif.png" alt="Puntos GBIF" style="zoom:50%;" />
+<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/imagenes/occurrences_gbif.png" alt="Puntos GBIF" style="zoom:50%;" />
 
 A partir de estos datos obtuve dos mapas de distribución del índice de Shannon. En cada uno de ellos la referencia espacial era diferente:
 
 #### Mapa de diversidad a escala de comunidad
 Consideré que el tamaño medio de una comunidad ecológica en Andalucía eran unos 250 m. Dividí todo el territorio en cuadrículas de ese tamaño y apliqué el script (programa) de R que vimos en la práctica.  La siguiente imagen muestra la malla anterior y los puntos de presencia de especies. 
 
-<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023_2024/imagenes/grid.png" alt="grid" style="zoom:50%;" />
+<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/imagenes/grid.png" alt="grid" style="zoom:50%;" />
 
-El resultado (tras dos días de procesamiento) se puede ver en la imagen de abajo. Y [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023_2024/geoinfo/H_250.tif) puedes descargar la capa en formato raster (para que ocupe menos espacio)
+El resultado (tras dos días de procesamiento) se puede ver en la imagen de abajo. Y [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/geoinfo/H_250.tif) puedes descargar la capa en formato raster (para que ocupe menos espacio)
 
-<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023_2024/imagenes/shannon_250.png" alt="shannon 250m" style="zoom:50%;" />
+<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/imagenes/shannon_250.png" alt="shannon 250m" style="zoom:50%;" />
 
 #### Mapa de diversidad a escala de paisaje
 
 También apliqué el script de R anterior a la red de espacios protegidos de Andalucía. Es decir, calculé la diversidad de cada espacio protegido: diversidad a escala de paisaje. En este caso cada espacio protegido recibe un único valor del índice de Shannon. Se calcula computando las abundancias relativas de todas las especies presentes en ese espacio protegido.
 
-A continuación puedes ver el resultado. También puedes descargarlo [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023_2024/geoinfo/H_natura.tif) en formato raster:
+A continuación puedes ver el resultado. También puedes descargarlo [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/geoinfo/H_natura.tif) en formato raster:
 
-<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023_2024/imagenes/shannon_natura_label.png" alt="natura Shannon" style="zoom:100%;" />
+<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/imagenes/shannon_natura_label.png" alt="natura Shannon" style="zoom:100%;" />
 
 ***
 
@@ -92,7 +92,7 @@ Para hacer esto suele ser útil visualizar la forma que tendría el resultado fi
 
 Con este objetivo en mente, ¿qué se te ocurre que podrías hacer? Ahí va una pista: herramientas de geoprocesamiento que extraen valores de un raster...
 
-Ah, se me olvidaba, además de las dos capas raster anteriores, también necesitarás la delimitación de los espacios protegidos de Andalucía (red Natura 2000). [Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023_2024/geoinfo/red_natura_2000.zip) la tienes en formato shapefile.
+Ah, se me olvidaba, además de las dos capas raster anteriores, también necesitarás la delimitación de los espacios protegidos de Andalucía (red Natura 2000). [Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/geoinfo/red_natura_2000.zip) la tienes en formato shapefile.
 
 
 ## Resultado
