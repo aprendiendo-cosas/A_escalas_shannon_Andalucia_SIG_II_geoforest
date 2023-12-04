@@ -12,7 +12,7 @@
 
 ## Objetivos
 
-Esta actividad tiene como finalidad última la aplicación del concepto de diversidad (a través del índice de Shannon) a una escala espacial diferente a la que vimos en la [actividad anterior](https://rawcdn.githack.com/aprendiendo-cosas/P_shannon_SIG_II_Geoforest/2023_2024/guion_practica_mapa_biodiversidad.html). Se trata de que los estudiantes infieran o deduzcan una acepción diferente al concepto de diversidad analizado en el ejercicio anterior. Este tipo de ejercicios son muy útiles desde un punto de vista docente porque nos permiten entrenar habilidades cognitivas superiores (trasferir conocimiento de un ámbito a otro, investigar, reflexionar, tomar conciencia del avance en el razonamiento, etc.). Como siempre, los objetivos concretos son de dos tipos:
+Esta actividad tiene como finalidad última la aplicación del concepto de diversidad (a través del índice de Shannon) a una escala espacial diferente a la que vimos en la [actividad anterior](https://rawcdn.githack.com/aprendiendo-cosas/P_shannon_SIG_II_Geoforest/2023__2024/guion_practica_mapa_biodiversidad.html). Se trata de que los estudiantes infieran o deduzcan una acepción diferente al concepto de diversidad analizado en el ejercicio anterior. Este tipo de ejercicios son muy útiles desde un punto de vista docente porque nos permiten entrenar habilidades cognitivas superiores (trasferir conocimiento de un ámbito a otro, investigar, reflexionar, tomar conciencia del avance en el razonamiento, etc.). Como siempre, los objetivos concretos son de dos tipos:
 
  + Disciplinares (tienen que ver con la ecología): Se muestran a continuación en orden de complejidad creciente:
    + Fijar los conceptos de diversidad (índice de Shannon) y riqueza (número de especies).
@@ -32,7 +32,7 @@ Antes de detallar en qué consiste esta actividad, lee el siguiente apartado en 
 
 Como sabemos, la cantidad de especies que hay en una comunidad ecológica es importante para entender muchas características estructurales y funcionales de los ecosistemas. En concreto hay dos descriptores importantes en una comunidad ecológica: riqueza de especies y diversidad. La riqueza de especies es fácil de entender: es la cantidad de especies que hay en una comunidad dada. Es un descriptor importante, pero tiene varios problemas para ser usado de manera estándar. Uno de ellos es que depende del esfuerzo de muestreo de especies. Es posible que lugares con muchas especies den valores bajos en este parámetro si no han sido suficientemente muestreados. Para minimizar este problema se usan otros indicadores de diversidad. En nuestro caso trabajamos con el[ índice de Shannon](https://es.wikipedia.org/wiki/%C3%8Dndice_de_Shannon), que tiene en cuenta tanto el número de especies como su abundancia relativa. 
 
-La diversidad biológica se distribuye por la Tierra según una serie de patrones espaciales que vimos en la [actividad anterior](https://rawcdn.githack.com/aprendiendo-cosas/P_shannon_SIG_II_Geoforest/2023_2024/guion_practica_mapa_biodiversidad.html). Dichos patrones ponen de manifiesto cómo se comporta la diversidad frente a ciertos factores ambientales. Por ejemplo:
+La diversidad biológica se distribuye por la Tierra según una serie de patrones espaciales que vimos en la [actividad anterior](https://rawcdn.githack.com/aprendiendo-cosas/P_shannon_SIG_II_Geoforest/2023__2024/guion_practica_mapa_biodiversidad.html). Dichos patrones ponen de manifiesto cómo se comporta la diversidad frente a ciertos factores ambientales. Por ejemplo:
 
 + Hay un patrón de distribución de la diversidad en función de la latitud. En el Ecuador hay más diversidad que en los polos. 
 + Heterogeneidad ambiental. Se ha comprobado que los lugares más heterogéneos desde un punto de vista ambiental (más cambios en las condiciones climáticas, por ejemplo), albergan más diversidad.
@@ -103,3 +103,6 @@ En la siguiente presentación hay alguna pista para entender lo que está pasand
 <iframe src="https://prezi.com/p/embed/hlzq3rFR88R4Vs84CVly/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="516" width="562"></iframe>
 
 
+Y en el siguiente vídeo está la grabación de la sesión en cuestión :)
+
+<iframe width="560" height="515" src="https://www.youtube.com/embed/ocDYjb-Dkx8?si=K_sbeFqHPCMs62-S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
