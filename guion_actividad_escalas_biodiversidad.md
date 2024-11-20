@@ -1,9 +1,9 @@
-# Guión sobre el efecto de las escalas espaciales en el significado de la diversidad biológica
+# Ejercicio sobre el efecto de las escalas espaciales en el significado de la diversidad biológica
 
 
 
-
-> + **_Versión_**: 2023-2024
+> + **_Tipo de material_**: <span style="display: inline-block; font-size: 12px; color: white; background-color: #8D26F5; border-radius: 5px; padding: 5px; font-weight: bold;"> Tarea</span>
+> + **_Versión_**: 2024-2025
 > + **_Asignatura_** : SIG II (Máster GEOFOREST). 
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **_Duración_**: Entre 0.5 y 1 hora (depende de lo intenso del debate...)
@@ -12,17 +12,18 @@
 
 ## Objetivos
 
-Esta actividad tiene como finalidad última la aplicación del concepto de diversidad (a través del índice de Shannon) a una escala espacial diferente a la que vimos en la [actividad anterior](https://rawcdn.githack.com/aprendiendo-cosas/P_shannon_SIG_II_Geoforest/2023__2024/guion_practica_mapa_biodiversidad.html). Se trata de que los estudiantes infieran o deduzcan una acepción diferente al concepto de diversidad analizado en el ejercicio anterior. Este tipo de ejercicios son muy útiles desde un punto de vista docente porque nos permiten entrenar habilidades cognitivas superiores (trasferir conocimiento de un ámbito a otro, investigar, reflexionar, tomar conciencia del avance en el razonamiento, etc.). Como siempre, los objetivos concretos son de dos tipos:
+Esta actividad tiene como finalidad última la aplicación del concepto de diversidad (a través del índice de Shannon) a una escala espacial diferente a la que vimos en la [actividad anterior](https://rawcdn.githack.com/aprendiendo-cosas/P_shannon_SIG_II_Geoforest/main/guion_practica_mapa_biodiversidad.html). Se trata de que los estudiantes infieran o deduzcan una acepción diferente al concepto de diversidad analizado en el ejercicio anterior. Este tipo de ejercicios son muy útiles desde un punto de vista docente porque nos permiten entrenar habilidades cognitivas superiores (trasferir conocimiento de un ámbito a otro, investigar, reflexionar, tomar conciencia del avance en el razonamiento, etc.). Como siempre, los objetivos concretos son de dos tipos:
 
- + Disciplinares (tienen que ver con la ecología): Se muestran a continuación en orden de complejidad creciente:
-   + Fijar los conceptos de diversidad (índice de Shannon) y riqueza (número de especies).
-   + Reflexionar sobre los patrones de distribución espaciales de la diversidad en un territorio concreto (Andalucía).
-   + Afianzar la conexión entre la identificación del patrón espacial (ej. hay más diversidad al oeste) y las causas que explican dicho patrón (ej. esto se debe a que hacia el oeste llueve más).
-   + Comprender que el concepto de diversidad tiene significados diferentes dependiendo de su escala espacial de aplicación.
-   + Descubrir un "nuevo" tipo de diversidad a partir de la observación de patrones de aplicación del índice de Shannon a dos escalas: escala de "comunidad pequeña" (cuadrículas de 250 m) y a escala de "paisaje" (espacios protegidos de Andalucía)
- + Instrumentales (tienen que ver con el manejo de herramientas de uso común):
-    + Entrenar la capacidad de reflexión ante un problema nuevo partiendo de información incompleta.
-    + Poner en práctica lo ya aprendido sobre búsqueda de bibliografía científica.
++ Disciplinares (tienen que ver con la ecología): Se muestran a continuación en orden de complejidad creciente:
+  + Fijar los conceptos de diversidad (índice de Shannon) y riqueza (número de especies).
+  + Reflexionar sobre los patrones de distribución espaciales de la diversidad en un territorio concreto (Andalucía).
+  + Afianzar la conexión entre la identificación del patrón espacial (ej. hay más diversidad al oeste) y las causas que explican dicho patrón (ej. esto se debe a que hacia el oeste llueve más).
+  + Comprender que el concepto de diversidad tiene significados diferentes dependiendo de su escala espacial de aplicación.
+  + Descubrir un "nuevo" tipo de diversidad a partir de la observación de patrones de aplicación del índice de Shannon a dos escalas: escala de "comunidad pequeña" (cuadrículas de 250 m) y a escala de "paisaje" (espacios protegidos de Andalucía)
++ Instrumentales (tienen que ver con el manejo de herramientas de uso común):
+  + Entrenar la capacidad de reflexión ante un problema nuevo partiendo de información incompleta.
+  + Poner en práctica lo ya aprendido sobre búsqueda de bibliografía científica.
+
 
 Antes de detallar en qué consiste esta actividad, lee el siguiente apartado en el que se describe el contexto ecológico planteado.
 
@@ -32,13 +33,13 @@ Antes de detallar en qué consiste esta actividad, lee el siguiente apartado en 
 
 Como sabemos, la cantidad de especies que hay en una comunidad ecológica es importante para entender muchas características estructurales y funcionales de los ecosistemas. En concreto hay dos descriptores importantes en una comunidad ecológica: riqueza de especies y diversidad. La riqueza de especies es fácil de entender: es la cantidad de especies que hay en una comunidad dada. Es un descriptor importante, pero tiene varios problemas para ser usado de manera estándar. Uno de ellos es que depende del esfuerzo de muestreo de especies. Es posible que lugares con muchas especies den valores bajos en este parámetro si no han sido suficientemente muestreados. Para minimizar este problema se usan otros indicadores de diversidad. En nuestro caso trabajamos con el[ índice de Shannon](https://es.wikipedia.org/wiki/%C3%8Dndice_de_Shannon), que tiene en cuenta tanto el número de especies como su abundancia relativa. 
 
-La diversidad biológica se distribuye por la Tierra según una serie de patrones espaciales que vimos en la [actividad anterior](https://rawcdn.githack.com/aprendiendo-cosas/P_shannon_SIG_II_Geoforest/2023__2024/guion_practica_mapa_biodiversidad.html). Dichos patrones ponen de manifiesto cómo se comporta la diversidad frente a ciertos factores ambientales. Por ejemplo:
+La diversidad biológica se distribuye por la Tierra según una serie de patrones espaciales que vimos en la [actividad anterior](https://rawcdn.githack.com/aprendiendo-cosas/P_shannon_SIG_II_Geoforest/main/guion_practica_mapa_biodiversidad.html). Dichos patrones ponen de manifiesto cómo se comporta la diversidad frente a ciertos factores ambientales. Por ejemplo:
 
 + Hay un patrón de distribución de la diversidad en función de la latitud. En el Ecuador hay más diversidad que en los polos. 
 + Heterogeneidad ambiental. Se ha comprobado que los lugares más heterogéneos desde un punto de vista ambiental (más cambios en las condiciones climáticas, por ejemplo), albergan más diversidad.
 + Dureza ambiental. En multitud de ocasiones se ha comprobado que los lugares sometidos a más perturbaciones o más fuentes de estrés, tienen menos diversidad biológica.
 
-[Este](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/biblio/biodiversity_patterns.pdf) artículo describe con detalle estos patrones y algunos más. El foco de esta actividad es que, si bien los factores anteriores explican la distribución de la diversidad, lo hacen de forma distinta dependiendo de la escala espacial a la que "observamos". 
+[Este](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/main/biblio/biodiversity_patterns.pdf) artículo describe con detalle estos patrones y algunos más. El foco de esta actividad es que, si bien los factores anteriores explican la distribución de la diversidad, lo hacen de forma distinta dependiendo de la escala espacial a la que "observamos". 
 
 
 
@@ -54,28 +55,26 @@ En las siguientes secciones se describe cómo procederemos. En primer lugar cont
 
 En primer lugar descargué de GBIF todos los datos de presencia de especies de Andalucía.  Esto supone trabajar con una base de datos de 11.448.644 registros. Abajo puedes ver la densidad de puntos de presencia de especies según GBIF en nuestra región.
 
-<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/imagenes/occurrences_gbif.png" alt="Puntos GBIF" style="zoom:50%;" />
+<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/main/imagenes/occurrences_gbif.png" alt="Puntos GBIF" style="zoom:50%;" />
 
 A partir de estos datos obtuve dos mapas de distribución del índice de Shannon. En cada uno de ellos la referencia espacial era diferente:
 
 #### Mapa de diversidad a escala de comunidad
 Consideré que el tamaño medio de una comunidad ecológica en Andalucía eran unos 250 m. Dividí todo el territorio en cuadrículas de ese tamaño y apliqué el script (programa) de R que vimos en la práctica.  La siguiente imagen muestra la malla anterior y los puntos de presencia de especies. 
 
-<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/imagenes/grid.png" alt="grid" style="zoom:50%;" />
+<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/main/imagenes/grid.png" alt="grid" style="zoom:50%;" />
 
-El resultado (tras dos días de procesamiento) se puede ver en la imagen de abajo. Y [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/geoinfo/H_250.tif) puedes descargar la capa en formato raster (para que ocupe menos espacio)
+El resultado (tras dos días de procesamiento) se puede ver en la imagen de abajo. Y [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/main/geoinfo/H_250.tif) puedes descargar la capa en formato raster (para que ocupe menos espacio)
 
-<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/imagenes/shannon_250.png" alt="shannon 250m" style="zoom:50%;" />
+<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/main/imagenes/shannon_250.png" alt="shannon 250m" style="zoom:50%;" />
 
 #### Mapa de diversidad a escala de paisaje
 
 También apliqué el script de R anterior a la red de espacios protegidos de Andalucía. Es decir, calculé la diversidad de cada espacio protegido: diversidad a escala de paisaje. En este caso cada espacio protegido recibe un único valor del índice de Shannon. Se calcula computando las abundancias relativas de todas las especies presentes en ese espacio protegido.
 
-A continuación puedes ver el resultado. También puedes descargarlo [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/geoinfo/H_natura.tif) en formato raster:
+A continuación puedes ver el resultado. También puedes descargarlo [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/main/geoinfo/H_natura.tif) en formato raster:
 
-<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/imagenes/shannon_natura_label.png" alt="natura Shannon" style="zoom:100%;" />
-
-***
+<img src="https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/main/imagenes/shannon_natura_label.png" alt="natura Shannon" style="zoom:100%;" />
 
 Los mapas anteriores muestran diferentes patrones en la distribución espacial de la diversidad. Ahí van algunos ejemplos:
 
@@ -92,17 +91,30 @@ Para hacer esto suele ser útil visualizar la forma que tendría el resultado fi
 
 Con este objetivo en mente, ¿qué se te ocurre que podrías hacer? Ahí va una pista: herramientas de geoprocesamiento que extraen valores de un raster...
 
-Ah, se me olvidaba, además de las dos capas raster anteriores, también necesitarás la delimitación de los espacios protegidos de Andalucía (red Natura 2000). [Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/2023-2024/geoinfo/red_natura_2000.zip) la tienes en formato shapefile.
+Ah, se me olvidaba, además de las dos capas raster anteriores, también necesitarás la delimitación de los espacios protegidos de Andalucía (red Natura 2000). [Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/raw/main/geoinfo/red_natura_2000.zip) la tienes en formato shapefile.
+
 
 
 ## Resultado
 
-En la siguiente presentación hay alguna pista para entender lo que está pasando. No la veas hasta el final :)
+En la siguiente presentación hay alguna pista para entender lo que está pasando. No la veas hasta que hayas pensado un poco ...
 
 
 <iframe src="https://prezi.com/p/embed/hlzq3rFR88R4Vs84CVly/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="516" width="562"></iframe>
 
 
-Y en el siguiente vídeo está la grabación de la sesión en cuestión :)
 
-<iframe width="560" height="515" src="https://www.youtube.com/embed/ocDYjb-Dkx8?si=K_sbeFqHPCMs62-S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+****
+
+[Aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/archive/refs/tags/2024_2025.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
+
+****
+Haz click [aquí](https://github.com/aprendiendo-cosas/A_escalas_shannon_Andalucia_SIG_II_geoforest/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
+
+****
+ <p xmlns:cc="http://creativecommons.org/ns#" >El contenido de este repositorio se puede utilizar bajo la siguiente licencia:  <a  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"  target="_blank" rel="license noopener noreferrer"  style="display:inline-block;">CC BY-NC-SA 4.0<img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"  alt=""></a></p> 
+
+<p>Esta licencia no aplica a enlaces a artículos, libros o imágenes no originales. Estos productos tienen su licencia correspondiente.</p>
